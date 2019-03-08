@@ -1,14 +1,14 @@
-import React, { Component } from 'react'
-import Layout from './components/Layout'
+import React, { Component } from "react";
+import Layout from "./components/ManyComponentsInOne";
 
 class App extends Component {
-  render () {
+  render() {
     return (
       <div>
         <Layout />
       </div>
-    )
+    );
   }
 }
 
-export default App
+export default App;
